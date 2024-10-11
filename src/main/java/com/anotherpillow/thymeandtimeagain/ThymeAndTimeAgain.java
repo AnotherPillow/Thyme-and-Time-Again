@@ -60,8 +60,9 @@ public class ThymeAndTimeAgain
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.THYME.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(ModItems.THYME.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
-                output.accept(ModItems.THYME_IN_A_BOTTLE.get());
+                for (DeferredHolder<Item, ? extends Item> item : ModItems.ITEMS.getEntries()) {
+                    output.accept(item.get());
+                }
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
