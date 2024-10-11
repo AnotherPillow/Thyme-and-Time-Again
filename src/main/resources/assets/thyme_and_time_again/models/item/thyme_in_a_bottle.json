@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thyme_and_time_again:item/thyme_in_a_bottle"
+  }
+}
