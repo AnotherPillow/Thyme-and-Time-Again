@@ -30,7 +30,7 @@ public class ThymeCropBlock extends CropBlock {
 
     @Override
     public int getMaxAge() {
-        return super.getMaxAge();
+        return MAX_AGE;
     }
 
     @Override

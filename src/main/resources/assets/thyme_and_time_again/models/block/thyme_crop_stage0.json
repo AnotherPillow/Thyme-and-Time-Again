@@ -1,6 +1,6 @@
 {
-  "parent": "thyme_and_time_again:block/crop_thyme",
+  "parent": "thyme_and_time_again:block/thyme_crop",
   "textures": {
-    "crop": "thyme_and_time_again:block/crop_thyme0"
+    "crop": "thyme_and_time_again:block/thyme_stage0"
   }
 }
