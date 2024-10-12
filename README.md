@@ -13,4 +13,6 @@ A number of image assets are licensed as Creative Commons Attribution 4.0 Intern
 - `thyme_stage2.png`
 - `thyme_stage3.png`
 - `thyme_stage4.png`
-- `thyme_stage5.png`
+- `thyme_stage5.png` (slightly recoloured)
+- `time_dust.png` (recoloured diamond dust)
+- `time_crystal.png` (recoloured purple crystal)

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thyme_and_time_again:block/time_crystal_block"
+  }
+}

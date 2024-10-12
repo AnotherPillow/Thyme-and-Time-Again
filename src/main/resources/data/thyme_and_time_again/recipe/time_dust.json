@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "thyme_and_time_again:thyme_in_a_bottle"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "T": {
+      "item": "thyme_and_time_again:thyme"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "DBL",
+    "TAT",
+    "LBD"
+  ],
+  "result": {
+    "count": 3,
+    "id": "thyme_and_time_again:time_dust"
+  }
+}

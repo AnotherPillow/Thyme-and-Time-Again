@@ -22,6 +22,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> THYME_CROP = BLOCKS.register("thyme_crop",
             () -> new ThymeCropBlock(Blocks.WHEAT.properties().noCollission().noOcclusion()));
 
+    public static final DeferredBlock<Block> TIME_CRYSTAL_BLOCK = BLOCKS.register("time_crystal_block",
+            () -> new Block(Blocks.EMERALD_BLOCK.properties()));
+
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);
     }

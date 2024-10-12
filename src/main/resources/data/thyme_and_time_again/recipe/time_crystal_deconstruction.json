@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thyme_and_time_again:time_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "thyme_and_time_again:time_crystal"
+  }
+}
