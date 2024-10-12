@@ -2,6 +2,7 @@ package com.anotherpillow.thymeandtimeagain.custom;
 
 import com.anotherpillow.thymeandtimeagain.item.ModItems;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -35,5 +36,10 @@ public class ThymeCropBlock extends CropBlock {
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(AGE);
+    }
+
+    @Override
+    protected int getBonemealAgeIncrease(Level p_52262_) {
+        return super.getBonemealAgeIncrease(p_52262_);
     }
 }
