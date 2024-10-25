@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "C": {
+      "item": "thyme_and_time_again:time_crystal"
+    }
+  },
+  "pattern": [
+    "#C#",
+    "CTC",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thyme_and_time_again:temporal_totem"
+  }
+}

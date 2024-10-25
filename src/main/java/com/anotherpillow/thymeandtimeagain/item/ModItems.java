@@ -39,6 +39,9 @@ public class ModItems {
     public static final DeferredItem<BlockItem> TIME_CRYSTAL_BLOCK_ITEM = ModItems.ITEMS.registerSimpleBlockItem("time_crystal_block",
             ModBlocks.TIME_CRYSTAL_BLOCK);
 
+    public static final DeferredItem<Item> TEMPORAL_TOTEM = ITEMS.register("temporal_totem",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE).stacksTo(1)));
+
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
